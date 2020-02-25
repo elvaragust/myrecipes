@@ -1,0 +1,26 @@
+@import 'layout';
+$bcolor: bisque;
+$font: 'Merriweather', serif;
+$fontcolor: rgb(20,10,220);
+
+
+body {
+    background-color: $bcolor;
+    font-family: $font;
+}
+h1, h2, h3 {
+    color: $fontcolor;
+}
+header h1 {
+    font-style: oblique;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mybutton{
+    background: #f7786b;
+    font-size: 0.75em;
+}
+@import "layout"; 
